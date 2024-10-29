@@ -83,7 +83,7 @@ with open(file_to_output, "w") as txt_file:
     f"---------------------------------------------------------------\n"
     )
         
-    print(output)
+    print(winning_summary)
 
     #Save the output as a text file
     txt_file.write(winning_summary)
